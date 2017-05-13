@@ -1,0 +1,7 @@
+10 let a=sin(3)
+ let a=sin(3)
+Dim numbers(4,5) as Integer
+ let b = numbers(4,0)+10
+
+90 print "a"; a
+   print "b"; b

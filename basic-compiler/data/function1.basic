@@ -1,0 +1,3 @@
+10 let a=sin(3)
+
+90 print "a"; a

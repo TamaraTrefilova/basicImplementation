@@ -1,0 +1,4 @@
+10 let "abc"  = 12
+20 let b = a*2
+     cc= a +b
+    let bb=cc

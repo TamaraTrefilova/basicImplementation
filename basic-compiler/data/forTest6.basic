@@ -1,0 +1,5 @@
+10 a = 5
+25 print a
+30 for i=10 to 20 step 2
+40 print i
+50 next i

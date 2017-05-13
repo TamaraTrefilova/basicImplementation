@@ -1,0 +1,6 @@
+10 let a=sin(3)
+Dim (4) as Integer
+ let b = numbers(2)+10
+
+90 print "a"; a
+   print "b"; b

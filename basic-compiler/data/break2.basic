@@ -1,0 +1,11 @@
+10 let a=5
+20 do while a>5
+30  a=a+1
+40  if a=3 then
+    break
+50  endif
+60  if a=6 then
+   break
+70  endif 
+80 loop
+90 print "a"; a

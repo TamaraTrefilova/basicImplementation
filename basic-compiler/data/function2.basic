@@ -1,0 +1,3 @@
+10 let a=cos(3)
+
+90 print "a"; a

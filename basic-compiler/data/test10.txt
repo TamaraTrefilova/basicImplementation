@@ -1,0 +1,7 @@
+10 let a = 12
+20 let b = a*2
+   cc = a+b
+30 goto 40
+   let a = cc
+40 print a
+    

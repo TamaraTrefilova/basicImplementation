@@ -1,0 +1,8 @@
+10 let a=2
+ print "a=";a
+30  a=a+1
+40  if a=3 then
+    print "here the break when a="; a
+    break
+50  endif
+90 print "a"; a

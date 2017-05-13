@@ -1,0 +1,7 @@
+10 a = 5
+25 print a
+let i = 0 
+30 if a = 5 then
+   print "b"
+50  endif
+70 print "i";i

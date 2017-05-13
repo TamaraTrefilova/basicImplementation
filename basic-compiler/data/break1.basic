@@ -1,0 +1,14 @@
+10 let a=1
+20 do while a<6
+ 	print "a=";a
+30  a=a+1
+40  if a=3 then
+    print "here the break when a="; a
+    break
+50  endif
+60  if a=6 then
+	print "here the break when a="; a
+    break
+70  endif 
+80 loop
+90 print "a"; a

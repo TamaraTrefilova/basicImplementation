@@ -1,0 +1,9 @@
+10 let a=5
+Dim numbers(4,a) as Integer
+let numbers(2,3) = 5
+ let b = numbers(2,3)+10
+	let c = numbers(2,2)+10
+	
+90 print "a"; a
+   print "b"; b
+   print "c"; c

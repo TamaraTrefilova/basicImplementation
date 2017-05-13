@@ -1,0 +1,11 @@
+10 let a = 3
+20 print a
+30 if a = 3 then goto 45
+40 print "N"
+45 b=0
+50 for i = 1 to 10
+   b=b+1
+60 print i
+70 next i 
+75 print "b "; b
+80 print "end"

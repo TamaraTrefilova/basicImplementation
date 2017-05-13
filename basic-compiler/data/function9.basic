@@ -1,0 +1,3 @@
+10 let a=cos(sin(max(2,3)))
+
+90 print "a"; a

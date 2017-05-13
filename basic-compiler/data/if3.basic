@@ -1,0 +1,19 @@
+10 a = 0
+25 print a
+let i = 0 
+30 	if a = 5 then
+40   	print "b"
+ 	else 
+  		if a=10 then
+  			print a+10
+50  	endif
+  	else
+     	print "ccc"
+  	endif
+60 print "i";i
+70 print "a";a
+
+
+
+
+

@@ -1,0 +1,12 @@
+10 let n = 3
+15 print "now n=";n
+20 let i = n-1 
+30 let a = n * i
+32 let n = a
+33 print "now a=";a
+   let i =  i-1 
+35 print "now n=";n
+36 print "now i=";i
+40 if i = 0 then goto 60
+50 goto 30
+60 print "a";a

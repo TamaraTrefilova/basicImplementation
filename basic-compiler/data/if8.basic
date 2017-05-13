@@ -1,0 +1,8 @@
+10 a = 0
+30 if a = 5 goto 40
+40   print "a"
+if a!=5 goto 45 
+45  print a+10 
+ i = 1
+60 print "i";i
+70 print "a";a  

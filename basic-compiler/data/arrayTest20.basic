@@ -1,0 +1,9 @@
+10 let a=sin(3)
+Dim numbers(3,5,7) as Integer
+let numbers(2,6,5) = 11
+let b = numbers(2,3,5)+10
+	let c = numbers(2,2,2)+15
+	
+90 print "a"; a
+   print "b"; b
+   print "c"; c

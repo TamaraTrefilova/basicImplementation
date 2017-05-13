@@ -1,0 +1,25 @@
+10 a=2
+20 do while a<20
+30 print a
+40  a=a+1
+50 if a=3 then
+  	print "break1 a=";a
+   a=a+1 
+60   break
+ else
+70  
+     print "continue a=";a
+80   continue
+90  endif
+100 if a=13 then
+    print "break2 a=";a
+  		a=a+2 
+110  break
+120  endif 
+130 if a=20 then
+	 print "continue a=";a
+	   continue
+150  endif
+160 loop
+170 print "end"
+

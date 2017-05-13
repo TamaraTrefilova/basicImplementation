@@ -1,0 +1,8 @@
+10 a = 5
+25 print a
+let i = 0
+30 do until i= a * 3
+40   print i
+50   i=i+1
+60  loop 
+70 print "i";i

@@ -1,0 +1,34 @@
+ basic bnf
+<basic program>=::{ [ <label> ] <statement> }
+<label>=::<number>
+<statement>=:: <printstatement> | <ifstatement> |<inputstatement>|<forstatement>|<nextstatement>|<endstatement>|<letstatement>|
+<ifstatement> ::= 'if' <boolean_expression> 'then' [ 'goto' ] <label>
+<printstatement>=::'print'(<stringConstant>|<stringConstant>';'<expression>|<expression>)
+<inputstatement>=::'input' [<StringConstant>';']<varable>
+<nextstatemen>::='next'<variable>
+ <forstatement>=::'for'  <assignment> 'to' <expression>
+<nextstatement>='next'<variable>
+<endstatement>=::'end'
+<letstatement>=::['let'] <assignment>
+<assignment>=::<variable >'='<expression>
+<expression>::=<booleanExpression>{<logicOper><booleanExpression>}
+<logicOper>::='&&' | '||'
+<booleanExpression>::=<sumExpresson>[<equalLogic><sumExpresson>]
+<equalLogic>::='>' | '<' | '>=' | '<='
+<sumExpresson>::=<operand>{<operPlusMin><operand>}
+
+<operPlusMin>::='+' | '-' 
+<operand>::=<terminal>{<operMulDiv><terminal>}
+<operMulDiv>::='*' | '/'
+<terminal>::=<number>|'('<expression>')'|<stringConstant>|<variable>|<true>|<false>| <functionname> '(' [<list_args>] ')'
+<functionname> :: = <name>
+<list_args> ::= <expression> { ',' <expression> }
+<name>=::<rightstatement>|<leftstatement>|<lenstatment>
+<stringConstant>::='"'{<char>}'"'
+<char>::='a'|'b'|...
+<variable>::=<char>{ <char>|<digit> }[<symbol>]
+<symbol>::='%'|'$'
+<number>::=<digit>{<digit>}
+<digit>::='0'|'1'|
+<true>::='true'
+<false>::='false'

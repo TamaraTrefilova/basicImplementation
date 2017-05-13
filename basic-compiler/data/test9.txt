@@ -1,0 +1,6 @@
+10 let a = 12
+20 print "a"
+30  let b = a*2
+     cc= a +b
+    let bb=cc
+    print "bb";bb

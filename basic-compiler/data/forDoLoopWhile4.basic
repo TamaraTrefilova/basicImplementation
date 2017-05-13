@@ -1,0 +1,6 @@
+a=5
+do while a>6
+a=a+1
+print a
+loop while a<15
+print "done"

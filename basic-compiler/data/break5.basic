@@ -1,0 +1,7 @@
+10 let a=1
+ print "a=";a
+30  a=a+1
+    print "a="; a
+    break
+50  endif
+90 print "a"; a
